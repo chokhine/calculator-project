@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  width: 300px;
+  height: auto;
+  padding: 30px;
+  background-color: aliceblue;
+  border: 5px outset rgb(67, 64, 64);
+  border-radius: 20px;
+}
+.dd {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.day,
+.date {
+  width: auto;
+  padding: 5px 10px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  border: 2px inset black;
+  color: green;
+}
+#display {
+  width: 90%;
+  height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 5%;
+  background-color: #7c8565;
+  border: 2px outset black;
+  border-radius: 20px;
+  color: whitesmoke;
+}
+.box {
+  width: 100%;
+  height: auto;
+  /* background-color: blueviolet; */
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 50px;
+  text-align: center;
+  grid-gap: 15px;
+}
+button {
+  font-size: 25px;
+  color: brown;
+  line-height: 50px;
+  background-color: aqua;
+  border-radius: 20px;
+}
+button:active {
+  background-color: cornflowerblue;
+}
+.box button:nth-child(2) {
+  color: red;
+  font-weight: bold;
+}
+.box button:nth-child(19) {
+  color: red;
+  font-weight: bold;
+  background-color: burlywood;
+}
+.box button:nth-child(19):active {
+  background-color: red;
+  color: burlywood;
+}
+.box button:last-child {
+  background-color: greenyellow;
+  color: rgb(255, 0, 251);
+  font-weight: bolder;
+}
+.box button:last-child:active {
+  background-color: rgb(255, 0, 251);
+  color: greenyellow;
+}
+.box button:nth-child(3),
+.box button:nth-child(4),
+.box button:nth-child(8),
+.box button:nth-child(12),
+.box button:nth-child(16) {
+  color: blue;
+  font-weight: bold;
+}
+.box button:nth-child(18) {
+  color: rgb(237, 4, 101);
+  font-weight: bold;
+}
+.box button:nth-child(1) {
+  color: rgb(237, 4, 101);
+}
